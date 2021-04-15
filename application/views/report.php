@@ -109,7 +109,6 @@
             </div>
            
             <div class="chart">
-                <h1>Chart</h1>
                 <div id="chartContainer" style="height: 370px; width: 100%;"></div>
             </div>
         </div>
@@ -133,11 +132,8 @@
 
         var options = {
             title: {
-                text: "Desktop OS Market Share in 2017"
+                text: "Customer and number of new leads"
             },
-            subtitles: [{
-                text: "As of November, 2017"
-            }],
             animationEnabled: true,
             data: [{
                 type: "pie",
